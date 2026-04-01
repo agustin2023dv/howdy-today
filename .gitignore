@@ -1,0 +1,52 @@
+# .gitignore
+
+# Python
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+database/*.db
+
+# Environment Secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Ollama & Models
+~/.ollama/
+ollama/
+*.bin
+*.gguf
+
+# Power BI 
+reports/*.pbix
+!reports/screenshots/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test Data
+test_data/
